@@ -55,14 +55,12 @@ A beautiful NFT minting application built with OnchainKit, Reown AppKit, Next.js
 
 ## Smart Contract Integration
 
-This app works with NFT contracts on Ethereum Mainnet, including:
-- **Mintable NFT Collection**: `0xe3c55ce0c0483564BD8a3caF09E3245bF9e54322` (supports minting)
-- **Mutant Ape Yacht Club**: `0x60E4d786628Fea6478F785A6d7e704777c86a7c6`
-- **CloneX**: `0x49cF6f5d4E2250E7a9Dd559a5F85f8f5C335d8e9`
+This app works with your mintable NFT contract on Ethereum Mainnet:
+- **Your NFT Collection**: `0xe3c55ce0c0483564BD8a3caF09E3245bF9e54322`
 
 The app leverages Ethereum Mainnet for:
+- Minting new NFTs from your contract
 - Viewing and interacting with existing NFT collections
-- Minting new NFTs (where contracts support it)
 - Trading and transferring NFTs on Ethereum
 
 ## Project Structure
