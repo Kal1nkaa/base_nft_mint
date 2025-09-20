@@ -1,11 +1,11 @@
 # NFT Mint App
 
-A beautiful NFT minting application built with OnchainKit, Reown AppKit, Next.js, and Tailwind CSS for Ethereum Mainnet.
+A beautiful NFT minting application built with OnchainKit, WalletKit Web SDK, Next.js, and Tailwind CSS for Ethereum Mainnet.
 
 ## Features
 
 - 🎨 Beautiful UI with dark mode support
-- 🔗 Wallet Connect integration via Reown AppKit
+- 🔗 Wallet Connect integration via WalletKit Web SDK
 - 🪙 NFT minting functionality on Ethereum Mainnet
 - 📱 Responsive design
 - ⚡ Fast and modern React/Next.js stack
@@ -32,10 +32,11 @@ A beautiful NFT minting application built with OnchainKit, Reown AppKit, Next.js
    Create a `.env.local` file in the root directory with:
    ```env
    # OnchainKit API Key - Get yours at https://portal.cdp.coinbase.com/products/onchainkit
+   NEXT_PUBLIC_ONCHAINKIT_PROJECT_NAME=YourAppName
    NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_api_key_here
 
-   # Reown AppKit Project ID - Get yours at https://dashboard.reown.com/
-   NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_project_id_here
+   # WalletConnect Project ID - Get yours at https://dashboard.reown.com/
+   NEXT_PUBLIC_PROJECT_ID=your_project_id_here
 
    # Smart Contract Address on Ethereum Mainnet
    NEXT_PUBLIC_CONTRACT_ADDRESS=0xe3c55ce0c0483564BD8a3caF09E3245bF9e54322
@@ -43,7 +44,7 @@ A beautiful NFT minting application built with OnchainKit, Reown AppKit, Next.js
 
 3. **Get your API keys:**
    - **OnchainKit API Key**: Visit [Coinbase Developer Platform](https://portal.cdp.coinbase.com/products/onchainkit)
-   - **Reown AppKit Project ID**: Visit [Reown Dashboard](https://dashboard.reown.com/) for Wallet Connect integration
+   - **WalletConnect Project ID**: Visit [Reown Dashboard](https://dashboard.reown.com/) for Wallet Connect integration
 
 4. **Run the development server:**
    ```bash
@@ -141,7 +142,7 @@ The app can be deployed to any platform that supports Next.js:
 ### Common Issues
 
 1. **"API Key not found"**: Make sure you've set `NEXT_PUBLIC_ONCHAINKIT_API_KEY` in your `.env.local` file
-2. **Wallet Connect connection fails**: Ensure you have `NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID` set correctly for Reown AppKit
+2. **Wallet Connect connection fails**: Ensure you have `NEXT_PUBLIC_PROJECT_ID` set correctly for Reown AppKit
 3. **Minting fails on Mainnet**: Check that you're connected to Ethereum Mainnet
 4. **Wallet not supported**: Ensure your wallet supports Wallet Connect protocol
 5. **Mainnet network issues**: Make sure your wallet is configured for Ethereum Mainnet

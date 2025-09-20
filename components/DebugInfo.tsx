@@ -8,7 +8,7 @@ export function DebugInfo() {
 
   useEffect(() => {
     setApiKey(process.env.NEXT_PUBLIC_ONCHAINKIT_API_KEY || '');
-    setProjectId(process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || '');
+    setProjectId(process.env.NEXT_PUBLIC_PROJECT_ID || '');
   }, []);
 
   return (

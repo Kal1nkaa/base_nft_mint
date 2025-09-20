@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@coinbase/onchainkit": "^1.0.2",
-    "@reown/appkit": "^1.8.6",
-    "@reown/appkit-adapter-wagmi": "^1.8.6",
+    "@reown/walletkit": "^1.2.11",
     "@tanstack/react-query": "^5.0.0",
+    "@walletconnect/core": "^2.21.9",
+    "@walletconnect/utils": "^2.21.9",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
